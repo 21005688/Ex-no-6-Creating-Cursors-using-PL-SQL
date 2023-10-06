@@ -18,6 +18,7 @@ INSERT INTO employee9 VALUES (2, 'sonu', 'marketing', 70000);
 
 ### PLSQL Cursor code
 ```
+set serveroutput on
 declare
 cursor employee9_cursor is
 select empid,empname,dept,salary
@@ -41,5 +42,8 @@ end;
 /
 ```
 ### Output:
+![output](https://github.com/21005688/Ex-no-6-Creating-Cursors-using-PL-SQL/assets/94747031/0810f88a-954b-42e1-b611-81e8c68b464f)
+
 
 ### Result:
+Creating a cursor using SQL/PL has been executed successfully.
