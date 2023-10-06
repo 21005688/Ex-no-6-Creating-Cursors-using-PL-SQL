@@ -14,6 +14,7 @@
 CREATE TABLE employee9 (empid NUMBER,empname VARCHAR(10),dept VARCHAR(10),salary NUMBER);
 INSERT INTO employee9 VALUES (1, 'mei', 'IT', 80000);
 INSERT INTO employee9 VALUES (2, 'sonu', 'marketing', 70000);
+INSERT INTO employee9 VALUES (3, 'madhu', 'hr', 90000);
 ``` 
 
 ### PLSQL Cursor code
@@ -43,7 +44,5 @@ end;
 ```
 ### Output:
 ![output](https://github.com/21005688/Ex-no-6-Creating-Cursors-using-PL-SQL/assets/94747031/0810f88a-954b-42e1-b611-81e8c68b464f)
-
-
 ### Result:
 Creating a cursor using SQL/PL has been executed successfully.
